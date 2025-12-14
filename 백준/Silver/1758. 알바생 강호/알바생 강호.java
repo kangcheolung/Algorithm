@@ -18,8 +18,6 @@ public class Main {
 		}
 
 		Arrays.sort(tips, Collections.reverseOrder());
-		Arrays.toString(tips);
-
 
 		for(int i=0; i<n; i++){
 			long calculatedTip = tips[i] - i;
